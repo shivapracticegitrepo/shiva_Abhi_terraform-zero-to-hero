@@ -22,6 +22,7 @@ provider "aws" {
   copy the resource block from generated_resources.tf and paste to main.tf to create terraform.statefile
 
   to import terraform state file. 
+  
   $terraform import aws_instance.example <instance ID>
 
   $terraform plan
