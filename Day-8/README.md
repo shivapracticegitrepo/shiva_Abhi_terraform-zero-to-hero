@@ -23,7 +23,7 @@ provider "aws" {
 
   to import terraform state file. 
   
-  $terraform import aws_instance.example <instance ID>
+  $terraform import aws_instance.example instance ID
 
   $terraform plan
 
